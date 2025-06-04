@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Plush Store</title>
   <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 <header>
@@ -35,6 +34,11 @@
   <button>Shop Now</button>
 </section>
 
+<section class="mobile-welcome">
+  <h2>Welcome to Plush Store!</h2>
+  <p>Explore our cute crochet creations on the go!</p>
+</section>
+
 <section id="products" class="products">
   <h2>Our Collection</h2>
   <div class="product-grid">
@@ -48,7 +52,6 @@
         <button>Add to Cart</button>
       </div>
     </div>
-
     <div class="product-card">
       <div class="product-image">
         <img src="images/bear.jpg" alt="Bear Plushie">
@@ -59,7 +62,6 @@
         <button>Add to Cart</button>
       </div>
     </div>
-
     <div class="product-card">
       <div class="product-image">
         <img src="images/duck.jpg" alt="Duck Plushie">
@@ -70,7 +72,6 @@
         <button>Add to Cart</button>
       </div>
     </div>
-
     <div class="product-card">
       <div class="product-image">
         <img src="images/fox.jpg" alt="Fox Plushie">
@@ -82,7 +83,6 @@
       </div>
     </div>
   </div>
-  </div>
 </section>
 
 <section id="about" class="about">
@@ -90,15 +90,29 @@
   <p>We create unique crochet plushies with love and care. Each piece is handmade to bring joy and warmth to your life.</p>
 </section>
 
-<section id="contact" class="products">
+<section id="contact" class="contact">
   <h2>Contact Us</h2>
-  <p style="text-align: center; color: #666;">Email: info@plushstore.com | Phone: (79) 52 24 52 |
+  <p>Email: <a href="mailto:info@plushstore.com">info@plushstore.com</a> | Phone: (79) 52 24 52 |
     Follow us on <a href="https://www.instagram.com/__plush__store__/?igsh=cXMxd2MwcHBmOHI1&utm_source=qr#" target="_blank">
-      <i class="fab fa-instagram"></i></a></p></p>
+      <i class="fab fa-instagram"></i></a></p>
 </section>
 
+<div class="mascot-container">
+  <img src="images/mascot.png" alt="Mascot" class="mascot">
+  <div class="mascot-message">Hi! I'm Kitty! Click "Shop Now" to explore our plushies!</div>
+</div>
+
 <footer>
-  <p>© 2020 Plush Store. All rights reserved.</p>
+  <p>© 2025 Plush Store. All rights reserved.</p>
 </footer>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const mascot = document.querySelector(".mascot-container");
+    setTimeout(() => {
+      mascot.classList.add("show");
+    }, 2000);
+  });
+</script>
 </body>
 </html>
