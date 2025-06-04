@@ -3,32 +3,102 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="[Zagorodniuc Anastasia]">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>CV Zagorodniuc Anastasia</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Plush Store</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-<section class="header sticky">
-  <div class="container">
-    <div class="section_inner">
-      <div class="section_left">
-        <div class="logo"><img alt="#" src="images/logo.png" width="250px">
-        </div>
+<header>
+  <nav>
+    <div class="logo-area">
+      <div class="logo-img"></div>
+      <div class="logo">Plush Store</div>
+    </div>
+    <div class="nav-links">
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#products">Shop</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="icons">
+      <a href="#"><i class="fas fa-user"></i></a>
+      <a href="#"><i class="fas fa-shopping-cart"></i></a>
+    </div>
+  </nav>
+</header>
+
+<section id="hero" class="hero">
+  <h1>Handmade Crochet Plushies</h1>
+  <p>Discover our adorable collection of crochet plushies, perfect for gifting or decorating!</p>
+  <button>Shop Now</button>
+</section>
+
+<section id="products" class="products">
+  <h2>Our Collection</h2>
+  <div class="product-grid">
+    <div class="product-card">
+      <div class="product-image">
+        <img src="images/bunny.jpg" alt="Bunny Plushie">
       </div>
-      <div class="header_center">
-        <div class="menu desktop">
-          <div class="menu_item" onclick="scrollToq('#about_me')">About Me</div>
-          <div class="menu_item" onclick="scrollToq('#education')">Education</div>
-          <div class="menu_item" onclick="scrollToq('#workexp')">Work Experience</div>
-          <div class="menu_item" onclick="scrollToq('#lang')">Languages</div>
-          <div class="menu_item" onclick="scrollToq('#hobbies')">Hobbies</div>
-        </div>
+      <div class="product-info">
+        <h3>Bunny Plushie</h3>
+        <p>$15.00</p>
+        <button>Add to Cart</button>
       </div>
-      <div class="header_right">
+    </div>
+
+    <div class="product-card">
+      <div class="product-image">
+        <img src="images/bear.jpg" alt="Bear Plushie">
+      </div>
+      <div class="product-info">
+        <h3>Bear Plushie</h3>
+        <p>$18.00</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-image">
+        <img src="images/duck.jpg" alt="Duck Plushie">
+      </div>
+      <div class="product-info">
+        <h3>Duck Plushie</h3>
+        <p>$12.00</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-image">
+        <img src="images/fox.jpg" alt="Fox Plushie">
+      </div>
+      <div class="product-info">
+        <h3>Fox Plushie</h3>
+        <p>$20.00</p>
+        <button>Add to Cart</button>
       </div>
     </div>
   </div>
+  </div>
 </section>
+
+<section id="about" class="about">
+  <h2>About Us</h2>
+  <p>We create unique crochet plushies with love and care. Each piece is handmade to bring joy and warmth to your life.</p>
+</section>
+
+<section id="contact" class="products">
+  <h2>Contact Us</h2>
+  <p style="text-align: center; color: #666;">Email: info@plushstore.com | Phone: (79) 52 24 52 |
+    Follow us on <a href="https://www.instagram.com/__plush__store__/?igsh=cXMxd2MwcHBmOHI1&utm_source=qr#" target="_blank">
+      <i class="fab fa-instagram"></i></a></p></p>
+</section>
+
+<footer>
+  <p>© 2020 Plush Store. All rights reserved.</p>
+</footer>
 </body>
 </html>
