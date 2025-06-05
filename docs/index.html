@@ -6,6 +6,8 @@
   <title>Plush Store</title>
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
 <header>
@@ -29,10 +31,10 @@
   </nav>
 </header>
 
-<section id="hero" class="hero">
-  <h1>Handmade Crochet Plushies</h1>
-  <p>Discover our adorable collection of crochet plushies, perfect for gifting or decorating!</p>
-  <button>Shop Now</button>
+<section id="hero" class="flex flex-col items-center justify-center min-h-[400px] bg-gradient-to-r from-pink-200 to-purple-200 rounded-b-3xl px-4 sm:px-6 lg:px-8">
+  <h1 class="text-4xl sm:text-5xl font-bold text-purple-600 mb-4 text-shadow">Handmade Crochet Plushies</h1>
+  <p class="text-lg sm:text-xl text-gray-600 mb-6 max-w-2xl text-center">Discover our adorable collection of crochet plushies, perfect for gifting or decorating!</p>
+  <button class="bg_RS_6 bg-purple-600 text-white px-6 py-3 rounded-full shadow-lg hover:bg-purple-700 transform hover:scale-105 transition-all duration-200">Shop Now</button>
 </section>
 
 <section class="mobile-welcome">
@@ -41,7 +43,7 @@
 </section>
 
 <section id="products" class="products">
-  <h2>Our Collection</h2>
+  <h2>Toys</h2>
   <div class="product-grid">
     <div class="product-card">
       <div class="product-image">
@@ -83,12 +85,106 @@
         <button>Add to Cart</button>
       </div>
     </div>
+    <div class="product-card">
+      <div class="product-image">
+        <img src="images/anya.JPG" alt="Anya">
+      </div>
+      <div class="product-info">
+        <h3>Anya</h3>
+        <p>$30.00</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="product-image">
+        <img src="images/doll1.JPG" alt="Childe ">
+      </div>
+      <div class="product-info">
+        <h3>Tartaglia</h3>
+        <p>$35.00</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="product-image">
+        <img src="images/sheep.jpg" alt="Bunny Plushie">
+      </div>
+      <div class="product-info">
+        <h3>Sheep</h3>
+        <p>$18.00</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="product-image">
+        <img src="images/hippo.jpg" alt="Bunny Plushie">
+      </div>
+      <div class="product-info">
+        <h3>Hippo</h3>
+        <p>23.00</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="product-image">
+        <img src="images/pig.jpg" alt="Bunny Plushie">
+      </div>
+      <div class="product-info">
+        <h3>Pig</h3>
+        <p>$15.00</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="product-image">
+        <img src="images/totoro.jpg" alt="Bunny Plushie">
+      </div>
+      <div class="product-info">
+        <h3>Totoro</h3>
+        <p>$40.00</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </div>
+  <h2>Clothes  and Accessories</h2>
+  <div class="product-grid">
+    <div class="product-card">
+      <div class="product-image">
+        <img src="images/sumka2.jpg" alt="Bunny Plushie">
+      </div>
+      <div class="product-info">
+        <h3>Sunflower Bag</h3>
+        <p>$20.00</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="product-image">
+        <img src="images/sumka.jpg" alt="Bear Plushie">
+      </div>
+      <div class="product-info">
+        <h3>Cute bag</h3>
+        <p>$23.00</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+    <div class="product-card">
+      <div class="product-image">
+        <img src="images/cclothes.jpg" alt="Duck Plushie">
+      </div>
+      <div class="product-info">
+        <h3>Cardigan</h3>
+        <p>$70.00</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
   </div>
 </section>
 
-<section id="about" class="about">
-  <h2>About Us</h2>
-  <p>We create unique crochet plushies with love and care. Each piece is handmade to bring joy and warmth to your life.</p>
+<section id="about" class="flex flex-col items-center justify-center min-h-[400px] bg-gradient-to-r from-pink-200 to-purple-200 rounded-b-3xl px-4 sm:px-6 lg:px-8">
+  <h2 class="text-4xl sm:text-5xl font-bold text-purple-600 mb-4 text-shadow">About Us</h2>
+  <p class="text-lg sm:text-xl text-gray-600 mb-6 max-w-2xl text-center">We create unique crochet plushies with love and care. Each piece is handmade to bring joy and warmth to your life.</p>
+  <button class="bg_RS_6 bg-purple-600 text-white px-6 py-3 rounded-full shadow-lg hover:bg-purple-700 transform hover:scale-105 transition-all duration-200">Shop Now</button>
 </section>
 
 <section id="contact" class="contact">
